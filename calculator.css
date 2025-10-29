@@ -1,0 +1,37 @@
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.cal{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+}
+#display{
+    font-size: 45px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.elements{
+   display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+}
+button{
+    font-size: 60px;
+    letter-spacing: 10px;
+    padding: 20px;
+    font-size: 25px;
+    background:rgb(49, 44, 44);
+    color: white;
+    border-radius: 5px;
+
+}  
+button:hover{
+    color: red;
+}
